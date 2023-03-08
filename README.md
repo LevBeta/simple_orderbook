@@ -2,8 +2,6 @@
 
 Simple orderbook made in Rust
 
-(Very bad code, you can use it as a base for your own, or contribute)
-
 ## Usage
 
 ```rust
