@@ -40,4 +40,8 @@ impl Asks {
     pub fn snapshot_5(&self) -> Vec<&(f64, f64)> {
         self.ticks.iter().take(5).collect()
     }
+
+    pub fn clean_switch(&mut self) {
+        self.ticks.clear();
+    }
 }

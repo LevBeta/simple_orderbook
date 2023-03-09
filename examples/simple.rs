@@ -25,6 +25,7 @@ fn main(){
 
     //Take a orderbook snapshot
     //Only top 5 levels each to bids and asks
+
     let snap = ob.snapshot();
     println!("Snapshot: {:?}", snap);
 }
